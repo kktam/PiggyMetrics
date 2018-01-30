@@ -13,63 +13,10 @@ env:
     - secure: "Kt8hRbEIkYW3CYJgvqEK9zCyS/l54XOI90799xEuXWgFQtZCH9Rjp6pthk+CxNg+zWndAcxaOm48uccDIEHgyVg/iL5LiwhuZtUNN2NBssSmvhaZM2dXt4fthVF/lp9JcGqeY9g4VvtDV6ODUvtzTXc1oSp0+vxYb94DNJjXvSOJj74Ia3qk67LxrvC+t4pwKb3NZ7vb07Ttjd97Cou2cNoCtj7GyHcsWvfhe2Txxx8XAo/wvSL96YJOd3cooio+n7hzm7PPgid+8G1EeBdOVca/4DI3Q4Z9a2dPFlvBMYSLfd03CVJ/AORiH0xiqMBI/X2K9Go3fLgXDeQhJDdbCXp7dR+ijtV0nEIh8MHeZdBJXMvjtDmKZkIovW6yxRG8qguYpbiFjSvPd8t0gZaEXSaM3uh/Vqn5kmZ21uhUArKZs4mc3ENnXEmo4IMd6C/eQNCXJoMolx9PPdfWZtQfBCWIlYA6GrWPeYWZganfU/1/zVb60gBmuXBl1sFRHAfY2uTGGocYGBcS7P13vPuXC9zSekSvMKI9PKQh+HEakXSlTPYsXqEtGBh/2xv99egk7fynChWiXJ5gML/5WsYA+cFp+mkd24fXEIK2H/3jqFc+UTKw+74q0t0KeBHmSf1bgoXiomhhXqGxx5w5eAHi6a6aWPSQIruhTKGaXuBvztU=" # DOCKER_PASS
     - COMMIT=${TRAVIS_COMMIT::7}
 
+  - secure: GeONVsTD48Y88CKoqupo/FC1Gy0eCrT1UNylvMzz5VYcLhWcUcu/d4870ZJznBqslGHbFaRc6VCXFLnbKNyR5Chgg127ouWOv/NFubJ5cO0UjHlBwoAxQ/SIrxG9W4B6Y2VeWRO0SIPHF6wUVeELiaPmIIe/jF15/SWJA926G2dF0+zTbn1KNWoVRi9pxZ0bIbEvVcVfHjWHsPtho916KRZ7ToV27f5E9DPLVMraK2HROOplJlXKNLuUor9xSmtOB/787yNrZmdsUaQDMHVfru9yEubfg4tF5ydoluB+JPzeUqIK2PrDgAiwmkEdoJFfbAOqwdy8vZkgpYd/t5vkhbOn3yA0QO1pnyhidx1YgyoJN3HwfMeVNQwUVg8jw7bltVe/DxsNo/AW11Tu7jKteuxewRHCxORzaUSmy5rnLq3AKIXT6h8Kq5VxP5tGbQypa7/z+Zu4vfOBdKGMiLllQ0vhhU0osgYzk/jT4KknuWQtOkX+QTS9iViIUwQgcn3kIMlz4eO83Mbt+IkNvgjF0DyE64mfV2ThTjXDV6959g3Nl/Fl95VMSTg95xtl0tbf733Lj+9HCIfLetlBz4ZzOqaDgD5fRL5HA8jR3FFHVdMd+dx/JELjSRHxO6ZFrCVG/2hBldIakO31/FbpODnDIkKO+86Oqz9DPKVnLJlmZp4=
+  - secure: Gl6a03cI88dKHV4rjP1IkYqCdVe7IM0XNcEzFDCxmvXHWSpqlotntOYtgvtRKsYOzb0cfdQwgFuwj80glUbFX5vbX1y5r+qR5sQSrJVi61e8Pijn0MT7rE/d2gCJwaRTkR2lvtRRTIX41LA+aZ6F7+xFSd+ni82IlaXtDywQJWpCEmxcSqSUd5nVhHzH5JZmkYQmQ8fjxzGUhpeePfapYThPxXsHGxmJeoIlEDM1TEFtxVf3Zo9D10812uesa7EwNSKL6MOBU/Me7+liIHdRRpRwVmOjaFAZLeHsUfZQWcLWer0ODULov1U/YMdF860gV1X8PPYxAYNnWqevOGZIsYTX60yem/dCq90Lx7cIiK/TBZIS7x9k65QwP/shnO/RK8PPANBt8bJ4FBxmDPRMPRvgCPp4wQIYTyaiXd0M6BmK+LysS5cRgOOg7YF+ZRqKjNGY9rkNeGs0x8LIaE4Vz138tJCVJ0U+r2OOZFLCIu4dmvuOo1rWf4Hzh+Xt/nx8RrAwwqHKWRyayHkZEbQv2dNGcJsZyAzXsxA6NTDGQfKYloX5oY4qq3BMCkRoid9sLHoJvZrfkN6mjbZkEd2Ed3RzyTIxasmRUeD45vfr7go9ts1a6ppDrRYJWLi26pqyPhimTI0ljEYXp4QnK5JMya2y6H0wo/hJmzrqfXj4+C0=
+  - secure: Kt8hRbEIkYW3CYJgvqEK9zCyS/l54XOI90799xEuXWgFQtZCH9Rjp6pthk+CxNg+zWndAcxaOm48uccDIEHgyVg/iL5LiwhuZtUNN2NBssSmvhaZM2dXt4fthVF/lp9JcGqeY9g4VvtDV6ODUvtzTXc1oSp0+vxYb94DNJjXvSOJj74Ia3qk67LxrvC+t4pwKb3NZ7vb07Ttjd97Cou2cNoCtj7GyHcsWvfhe2Txxx8XAo/wvSL96YJOd3cooio+n7hzm7PPgid+8G1EeBdOVca/4DI3Q4Z9a2dPFlvBMYSLfd03CVJ/AORiH0xiqMBI/X2K9Go3fLgXDeQhJDdbCXp7dR+ijtV0nEIh8MHeZdBJXMvjtDmKZkIovW6yxRG8qguYpbiFjSvPd8t0gZaEXSaM3uh/Vqn5kmZ21uhUArKZs4mc3ENnXEmo4IMd6C/eQNCXJoMolx9PPdfWZtQfBCWIlYA6GrWPeYWZganfU/1/zVb60gBmuXBl1sFRHAfY2uTGGocYGBcS7P13vPuXC9zSekSvMKI9PKQh+HEakXSlTPYsXqEtGBh/2xv99egk7fynChWiXJ5gML/5WsYA+cFp+mkd24fXEIK2H/3jqFc+UTKw+74q0t0KeBHmSf1bgoXiomhhXqGxx5w5eAHi6a6aWPSQIruhTKGaXuBvztU=
+  - COMMIT=${TRAVIS_COMMIT::7}
+  - secure: H5S4OLKKwfI+mKxH3vbufHEX3E/2oLARkPh9B5y9VB6dSSOmpWvjSy1LE2VOVvJreTZ6ZuZ5kKO8Ibi8ESt6CoFozbiZ8ojC4IvLryuEpjqOspgwSYYQXAHQ52em2BmJBdkhnGDoc1FkqU+rwSCGfPjAGeyuwPIr3gUVhRceuJpVO2jaRxPKyZSj95KBuCYxp5gElvFMMRUFCEPFSk2cvk8wC3RFfyymN+hczUMzFR+CeGT40wWMGPQbYqmHASVivbt8HqOP/HPhntwIMrMHhPlq+20r6kS7sDJJ1dNxmy9fNu8Yd6H9o4n/0gErX7Ka3bgU8Xa/QGNyHTEmm/x+FltaZWcJdB9uoGV9PIID8HItwPhH3Z69inTbh7Fd9SSMx9EhB132Tay6QD3xMDENy153MshsM2to7jBOgIBbh74Mzctuo/u3IjcR92yGPQ36Trk3BgPqIAenDiI2UXDuevmWlTTUV6UvawJO+4/vtHtmxYIIT+IcWQtjsANCI1dgBQoAPluO0nMBMEsBKZr5hFxZUqJXgOiyrWPdbcC9FNJWozntiGW7ZlKWIgXOUmLdnFuJh5IoYGVZ4MIw6KG1O9srCxVhzFHtIA+P7vo+lkkCj0iMZy1Bsz7I81wSPSvqlVaSXkkklnwkYSVhRuKkiIPk/uqSr9xJO6nc8ubws70=
+  - secure: HbN3t9F57E6o26mR7z3VEVqLHF5JqKPSPcf/vwuwaUXAYXd6LdBy9Ty1lGcRVOOnRDh5T2aurmFqSbSb15uZtQ0u4gDOPDS19yf1CjP/LwTz/+9KY2gRdhAwjroPUn3FmpABo6UWyYp1i+KAPPA/OVaJk+5M6JG1rOspnyQmtGcyShp6HJ0Rs2BXXUxSl9QpHSZlu65tiUfwx3kNCj39vCxnpPs/B0nwCSa88XYzHMAtDHn0uzpKJjsVVI0mxBfsQuKv/xu+AwQT1OoU/tXOWGpHfOdtFndS5fRoQ1+CXmw82Zuct/dRbNbmwt3eIlVQn4gD5Lt1PHJ8BWsDW0wI7lMVwNDNY7QiCf2XSuq/iJ62b5/EYV434hitr4OZa8LH9QXCWQJwGJhLl8tX7ZaCs5siXc7IiXhA1cLyrQkuLUjswpIGw/UyrH6NksjbPmSqFGMTKJL9MEBND8BL+YWz+6Zu8kF6vq7/opmtGSAB/AiBd6q0Aagoka6uWNNXC3NeGv1tT3vQplSknKy8MLDthgjru7ggJ5il3b6M6yOy19v2hW5B+uvisQZOUzOqvVx8BZSfst6QVpYgIp+JGzb+flxtFez+OP3EVCFN4KCKxelkGUPeApZhbz482bNIzWE4jaOPwJ6LayVSH8YH9HIVXkb9mc/h9TD7ehdvHaj0Cx8=
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
-  - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-
-  #TAG
-  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
-
-  # CONFIG SERVICE
-  - export CONFIG=sqshq/piggymetrics-config
-  - docker build -t $CONFIG:$COMMIT ./config
-  - docker tag $CONFIG:$COMMIT $CONFIG:$TAG
-  - docker push $CONFIG
-
-  # REGISTRY
-  - export REGISTRY=sqshq/piggymetrics-registry
-  - docker build -t $REGISTRY:$COMMIT ./registry
-  - docker tag $REGISTRY:$COMMIT $REGISTRY:$TAG
-  - docker push $REGISTRY
-
-  # GATEWAY
-  - export GATEWAY=sqshq/piggymetrics-gateway
-  - docker build -t $GATEWAY:$COMMIT ./gateway
-  - docker tag $GATEWAY:$COMMIT $GATEWAY:$TAG
-  - docker push $GATEWAY
-
-  # AUTH SERVICE
-  - export AUTH_SERVICE=sqshq/piggymetrics-auth-service
-  - docker build -t $AUTH_SERVICE:$COMMIT ./auth-service
-  - docker tag $AUTH_SERVICE:$COMMIT $AUTH_SERVICE:$TAG
-  - docker push $AUTH_SERVICE
-
-  # ACCOUNT SERVICE
-  - export ACCOUNT_SERVICE=sqshq/piggymetrics-account-service
-  - docker build -t $ACCOUNT_SERVICE:$COMMIT ./account-service
-  - docker tag $ACCOUNT_SERVICE:$COMMIT $ACCOUNT_SERVICE:$TAG
-  - docker push $ACCOUNT_SERVICE
-
-  # STATISTICS SERVICE
-  - export STATISTICS_SERVICE=sqshq/piggymetrics-statistics-service
-  - docker build -t $STATISTICS_SERVICE:$COMMIT ./statistics-service
-  - docker tag $STATISTICS_SERVICE:$COMMIT $STATISTICS_SERVICE:$TAG
-  - docker push $STATISTICS_SERVICE
-
-  # NOTIFICATION_SERVICE
-  - export NOTIFICATION_SERVICE=sqshq/piggymetrics-notification-service
-  - docker build -t $NOTIFICATION_SERVICE:$COMMIT ./notification-service
-  - docker tag $NOTIFICATION_SERVICE:$COMMIT $NOTIFICATION_SERVICE:$TAG
-  - docker push $NOTIFICATION_SERVICE
-
-  # MONITORING
-  - export MONITORING=sqshq/piggymetrics-monitoring
-  - docker build -t $MONITORING:$COMMIT ./monitoring
-  - docker tag $MONITORING:$COMMIT $MONITORING:$TAG
-  - docker push $MONITORING
-
-  # MONGO DB
-  - export MONGO_DB=sqshq/piggymetrics-mongodb
-  - docker build -t $MONGO_DB:$COMMIT ./mongodb
-  - docker tag $MONGO_DB:$COMMIT $MONGO_DB:$TAG
-  - docker push $MONGO_DB
