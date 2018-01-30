@@ -16,39 +16,39 @@ after_success:
 - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
 - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH
   ; fi`
-- export CONFIG=sqshq/piggymetrics-config
+- export CONFIG=kktam/piggymetrics-config
 - docker build -t $CONFIG:$COMMIT ./config
 - docker tag $CONFIG:$COMMIT $CONFIG:$TAG
 - docker push $CONFIG
-- export REGISTRY=sqshq/piggymetrics-registry
+- export REGISTRY=kktam/piggymetrics-registry
 - docker build -t $REGISTRY:$COMMIT ./registry
 - docker tag $REGISTRY:$COMMIT $REGISTRY:$TAG
 - docker push $REGISTRY
-- export GATEWAY=sqshq/piggymetrics-gateway
+- export GATEWAY=kktam/piggymetrics-gateway
 - docker build -t $GATEWAY:$COMMIT ./gateway
 - docker tag $GATEWAY:$COMMIT $GATEWAY:$TAG
 - docker push $GATEWAY
-- export AUTH_SERVICE=sqshq/piggymetrics-auth-service
+- export AUTH_SERVICE=kktam/piggymetrics-auth-service
 - docker build -t $AUTH_SERVICE:$COMMIT ./auth-service
 - docker tag $AUTH_SERVICE:$COMMIT $AUTH_SERVICE:$TAG
 - docker push $AUTH_SERVICE
-- export ACCOUNT_SERVICE=sqshq/piggymetrics-account-service
+- export ACCOUNT_SERVICE=kktam/piggymetrics-account-service
 - docker build -t $ACCOUNT_SERVICE:$COMMIT ./account-service
 - docker tag $ACCOUNT_SERVICE:$COMMIT $ACCOUNT_SERVICE:$TAG
 - docker push $ACCOUNT_SERVICE
-- export STATISTICS_SERVICE=sqshq/piggymetrics-statistics-service
+- export STATISTICS_SERVICE=kktam/piggymetrics-statistics-service
 - docker build -t $STATISTICS_SERVICE:$COMMIT ./statistics-service
 - docker tag $STATISTICS_SERVICE:$COMMIT $STATISTICS_SERVICE:$TAG
 - docker push $STATISTICS_SERVICE
-- export NOTIFICATION_SERVICE=sqshq/piggymetrics-notification-service
+- export NOTIFICATION_SERVICE=kktam/piggymetrics-notification-service
 - docker build -t $NOTIFICATION_SERVICE:$COMMIT ./notification-service
 - docker tag $NOTIFICATION_SERVICE:$COMMIT $NOTIFICATION_SERVICE:$TAG
 - docker push $NOTIFICATION_SERVICE
-- export MONITORING=sqshq/piggymetrics-monitoring
+- export MONITORING=kktam/piggymetrics-monitoring
 - docker build -t $MONITORING:$COMMIT ./monitoring
 - docker tag $MONITORING:$COMMIT $MONITORING:$TAG
 - docker push $MONITORING
-- export MONGO_DB=sqshq/piggymetrics-mongodb
+- export MONGO_DB=kktam/piggymetrics-mongodb
 - docker build -t $MONGO_DB:$COMMIT ./mongodb
 - docker tag $MONGO_DB:$COMMIT $MONGO_DB:$TAG
 - docker push $MONGO_DB
